@@ -10,9 +10,9 @@
 int main(void)
 {
 	char stri[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	
+
 	size_t len = sizeof(stri) - 1;
-	
+
 	write(STDERR_FILENO, stri, len);
 
 	return (1);
