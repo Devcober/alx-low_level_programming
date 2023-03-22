@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 	int i = 97;
 	int j;
 
-	for (j = 0; j <= 10; j++)
+	for (j = 0; j < 10; j++)
 	{
 		i = 97; /* reset i to its initial value*/;
 		while (i <= 122)
